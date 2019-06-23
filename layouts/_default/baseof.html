@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Buginet | Web</title>
+	<link rel="stylesheet" href="/css/styles.css" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css"
+		integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous" />
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="nav-logo"><i class="fas fa-bug"></i></div>
+		<ul class="nav-menu">
+			<li class="nav-menu-li">
+				<a class="nav-menu-item" href="">
+					Artículos
+				</a>
+			</li>
+			<li class="nav-menu-li">
+				<a class="nav-menu-item" href="">
+					Tutoriales
+				</a>
+			</li>
+			<li class="nav-menu-li">
+				<a class="nav-menu-item" href="">
+					Videos
+				</a>
+			</li>
+		</ul>
+		<div class="nav-social">
+			<a class="nav-menu-item" target="_blank" href="https://twitter.com/Pedro_412">
+				<i class="fab fa-twitter"></i>
+			</a>
+		</div>
+	</nav>
+
+	<div class="main-container container">
+		{{ block "main" . }}
+
+		{{ end }}
+	</div>
+</body>
+
+</html>
