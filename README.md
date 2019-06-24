@@ -5,7 +5,7 @@ También estaré publicando artículos acerca de otros temas como el trabajo.
 
 ## Artículos
 
-Artículos de interés para los desarrolladores web, principalmente para aquellos que van empezando en esta industria, además que ocasionalmente escribiere algunos tips de otros temas relacionados con el trabajo.
+Artículos de interés para los desarrolladores web, principalmente para aquellos que van empezando en esta industria, además que ocasionalmente escribire algunos tips de otros temas relacionados con el trabajo.
 
 ## Tutoriales
 
