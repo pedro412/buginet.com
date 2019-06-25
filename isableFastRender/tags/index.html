@@ -6,14 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>Buginet | Web</title>
+	<link rel="stylesheet" href="/css/styles.css" />
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css"
 		integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous" />
-	<link rel="stylesheet" href="/css/styles.css" />
 </head>
 
 <body>
 	<nav class="navbar">
-		<a href="/">
+		<a href="/index.html">
 			<div class="nav-logo"><i class="fas fa-bug"></i></div>
 		</a>
 		<ul class="nav-menu">
@@ -41,19 +41,26 @@
 	</nav>
 
 	<div class="main-container container">
-		{{ block "main" . }}
+		
+<article class="pb-3 list-article">
+    <h2>Como desplegar aplicaciones NodeJS a producción</h2>
+    <p>
+        Aprende como desplegar tus aplicaciones echas con nodejs en un entorno
+        de producción.
+    </p>
+</article>
 
-		{{ end }}
 	</div>
 
 	<footer>
+
 		<div class="text-center bold">
-			<small>Copyright &copy; {{ now.Format "2006" }} <br>
+			<small>Copyright &copy; 2019 <br>
 				Creado con 💚 por Pedro Álvarez
 			</small>
 		</div>
-	</footer>
 
-</body>
+	</footer>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
 
 </html>

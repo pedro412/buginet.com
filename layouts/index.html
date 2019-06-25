@@ -2,26 +2,23 @@
 
 <div class="container">
 
-    <h1>Hola que tal 👋, aquí encontraras artículos y tutoriales sobre desarrollo web</h1>
+    <h1 class="text-center">Buginet artículos y tutoriales sobre desarrollo web 👨‍💻</h1>
     <hr>
 
 
     <h2 class="pt-50 text-center"><i class="fas fa-backpack"></i> Tutoriales</h2>
     <section class="section-grid">
+        {{ range .Pages }}
+
         <article class="list-article text-center">
-            <h3>Crea tu primer sitio estático con HUGO</h3>
+            <h3>{{ .Title }}</h3>
             <p>
-                Aprende lo básico de HUGO y crea tu primer sitio web con este veloz ⚡ framework
+                {{ .Description }}
             </p>
-            <button class="btn btn-success">LEER</button>
+            <a href="{{.Permalink}}" class="btn btn-success btn-block">LEER</a>
         </article>
-        <article class="list-article text-center">
-            <h3>Firebase Hosting</h3>
-            <p>
-                Aprende a alojar tus sitios estáticos con Firebase Hosting 🔥 totalmente gratis
-            </p>
-            <button class="btn btn-success">LEER</button>
-        </article>
+
+        {{ end }}
     </section>
 
     <section class="pt-50">
@@ -34,7 +31,7 @@
                     sitios
                     web
                 </p>
-                <button class="btn btn-success">LEER</button>
+                <a href="#" class="btn btn-warning btn-block">LEER</a>
             </article>
             <article class="list-article text-center">
                 <h3>¿Qué es firebase?</h3>
@@ -42,7 +39,7 @@
                     Introducción básica a Firebase, la herramienta moderna más usada por los desarrolladores web y
                     moviles
                 </p>
-                <button class="btn btn-success">LEER</button>
+                <a href="#" class="btn btn-warning btn-block">LEER</a>
             </article>
         </div>
     </section>

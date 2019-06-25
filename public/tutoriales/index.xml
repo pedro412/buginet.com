@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutoriales on Buginet | Desarrollo Web</title>
+    <link>https://buginet.com/tutoriales/</link>
+    <description>Recent content in Tutoriales on Buginet | Desarrollo Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Mon, 24 Jun 2019 22:35:07 -0500</lastBuildDate>
+    
+	<atom:link href="https://buginet.com/tutoriales/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firebase Hosting</title>
+      <link>https://buginet.com/tutoriales/firebase-hosting/</link>
+      <pubDate>Mon, 24 Jun 2019 22:35:07 -0500</pubDate>
+      
+      <guid>https://buginet.com/tutoriales/firebase-hosting/</guid>
+      <description>¿Qué es Firebase? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</description>
+    </item>
+    
+    <item>
+      <title>Crea tu primer sitio estático con Hugo</title>
+      <link>https://buginet.com/tutoriales/crea-tu-primer-sitio-estatico-con-hugo/</link>
+      <pubDate>Sun, 23 Jun 2019 20:48:08 -0500</pubDate>
+      
+      <guid>https://buginet.com/tutoriales/crea-tu-primer-sitio-estatico-con-hugo/</guid>
+      <description>En este tutorial aprenderás lo básico de HUGO, ¿Qué es y para que nos sirve?, además te iré guiando paso a paso para que crees tu primer sitio desde cero sin tener conocimientos avanzados en Go(lenguaje de programación).
+Requisitos Para seguir esta guía no es necesario que tengas conocimientos en HTML, CSS y/o JavaScript, pero si ya conoces un poco de estas tecnologías te puede resultar más fácil.
+Sitios estáticos vs dinámicos Sitios estáticos Para entender mejor por que usar HUGO primero hablemos de lo que son los sitios estáticos, los sitios Estáticos son aquellos en los que no existe una lógica de servidor de tras de ellos, son prácticamente puro HTML, CSS y a veces JavaScript, estos sitios son muy usados para proyectos como blogs, sitios de noticias, documentación en donde no se requiere programar ni agregar funcionalidades complejas como un login y pagos por ejemplo.</description>
+    </item>
+    
+  </channel>
+</rss>

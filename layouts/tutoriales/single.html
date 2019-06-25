@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+
+
+<h1 class="text-center">
+    {{ .Title }}
+</h1>
+<hr>
+
+<div class="lesson-grid">
+
+    <div class="lesson pt-50">
+        {{ .Content }}
+    </div>
+
+    <aside>
+        <div class="aside">
+            {{ .TableOfContents }}
+    </aside>
+</div>
+</div>
+
+{{ end }}
