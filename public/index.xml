@@ -17,7 +17,9 @@
       <pubDate>Mon, 24 Jun 2019 22:35:07 -0500</pubDate>
       
       <guid>https://buginet.com/tutoriales/firebase-hosting/</guid>
-      <description>¿Qué es Firebase? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</description>
+      <description>Requisitos   Es necesario tener instalado NodeJs en nuestro computador y junto a ello Node Package Manager si no lo tienes checa esto
+  ¿Qué es Firebase?  Firebase ayuda a los equipos de aplicaciones móviles y web a tener éxito 🙌
+ Firebase es un conjunto de herramientas que nos facilita el desarrollo de aplicaciones web y móviles, una de sus herramientas más destacadas es la base de datos en tiempo real y auto escalable llamada Firestore, esta base de datos en la nube nos provee una solución inmediata con cero configuración de servidores, etc.</description>
     </item>
     
     <item>
