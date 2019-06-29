@@ -223,6 +223,11 @@ footer {
 	color: #ffa726 !important;
 }
 
+.lesson > figure > img {
+	max-width: 100%;
+	height: auto;
+}
+
 .lesson-grid {
 	display: grid;
 	grid-template-columns: minmax(200px, 3fr) 1.1fr;

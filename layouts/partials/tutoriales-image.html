@@ -1,0 +1,7 @@
+{{ $webp :=  print .RelPermalink "/img/featured.webp" }}
+{{ $fallback := print .RelPermalink "/img/featured.jpg" | default .Site.Data.defaults.featured_img }}
+
+<a href="{{ .RelPermalink }}">
+    <img style="max-width: width 100%; height: auto;" src="{{ $fallback }}"
+        onerror="this.onerror=null; this.src='{{ $webp  }}'">
+</a>

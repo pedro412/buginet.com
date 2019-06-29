@@ -52,7 +52,7 @@
 
 <div class="lesson-grid">
 
-    <div class="lesson pt-50">
+    <section class="lesson pt-50">
         
 
 <h2 id="requisitos">Requisitos</h2>
@@ -92,19 +92,35 @@
 
 <p>una vez te hayas registrado con tu cuenta de Google o Gmail debes ir a la consola:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/ir-a-la-consola.jpg" alt="Ir a la consola"></p>
+<figure>
+    <img src="img/ir-a-la-consola.jpg"
+         alt="ir a la consola"/> 
+</figure>
+
 
 <p>Después nos dirigimos a crear un proyecto:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/crear-un-proyecto.jpg" alt="Crear un proyecto"></p>
+<figure>
+    <img src="img/crear-un-proyecto.jpg"
+         alt="crea un proyecto"/> 
+</figure>
+
 
 <p>Creamos el proyecto:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/crear-proyecto.jpg" alt="Crear proyecto"></p>
+<figure>
+    <img src="img/crear-proyecto.jpg"
+         alt="crea un proyecto"/> 
+</figure>
+
 
 <p>Una vez se cree el proyecto nos dirigimos a Visión general del Proyecto y el menú lateral izquierdo nos vamos a Desarrolla &gt; Hosting</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/menu-lateral.jpg" alt="menu"></p>
+<figure>
+    <img src="img/menu-lateral.jpg"
+         alt="crea un proyecto"/> 
+</figure>
+
 
 <h2 id="instalando-firebase-tools">Instalando Firebase Tools</h2>
 
@@ -131,7 +147,11 @@
 
 <p>y dentro de este directorio o carpeta creare un nuevo documento de texto:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/creando-archivo-de-texto.jpg" alt="Crear index"></p>
+<figure>
+    <img src="img/creando-archivo-de-texto.jpg"
+         alt="Crear index"/> 
+</figure>
+
 
 <p>una vez creado el archivo le damos doble clic para abrir y escribimos lo siguiente:</p>
 
@@ -149,7 +169,11 @@
 
 <p>siguiente le damos en Archivo &gt; Guardar Como y le ponemos como nombre index.html Ojo: es muy importante que le cambies la extension de .txt a .html:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/guardar-como.jpg" alt="Crear index"></p>
+<figure>
+    <img src="img/guardar-como.jpg"
+         alt="crear index"/> 
+</figure>
+
 
 <p>Es posible que nos aparezca un mensaje de confirmación le damos que si estamos seguros, esto nos creara un archivo HTML muy básico que podemos subir a Firebase, si queremos estar seguro que esta todo Ok podemos abrir el archivo index.html que acabamos de crear este se debería abrir en nuestro navegador y veremos el mensaje que le pusimos.</p>
 
@@ -172,13 +196,21 @@
 
 <p>nos preguntara si queremos enviar información anónima de uso, en mi caso pondré que si ya que esto les ayuda a mejorar su producto basta con poner y ó n:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-login-1.jpg" alt="firebase login"></p>
+<figure>
+    <img src="img/firebase-login-1.jpg"
+         alt="firebase login"/> 
+</figure>
+
 
 <p>una vez hayas completado esto nos abrirá una página en donde se nos pedirá que nos identifiquemos con nuestra cuenta de Google si ya estas identificado se no pedirá que demos permisos a Firebase le damos en &ldquo;Permitir&rdquo; para continuar.</p>
 
 <p>Si todo es correcto deberíamos de ver esto:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/success-login.jpg" alt="firebase login"></p>
+<figure>
+    <img src="img/success-login.jpg"
+         alt="firebase login"/> 
+</figure>
+
 
 <p>y en la consola debemos ver un mensaje de que todo fue correcto.</p>
 
@@ -193,25 +225,45 @@
 
 <p>y nos manda lo siguiente:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-init-1.jpg" alt="firebase init"></p>
+<figure>
+    <img src="img/firebase-init-1.jpg"
+         alt="firebase init"/> 
+</figure>
+
 
 <p>le damos &lsquo;y&rsquo; para continuar.</p>
 
 <p>Ahora nos preguntará que herramienta deseamos utilizar con este proyecto y en nuestro caso queremos usar <strong>Hosting</strong> entonces navegamos con las teclas de arriba y abajo y nos posicionamos en la opción de Hosting y presionamos la tecla &lsquo;Espacio&rsquo; para seleccionar este debería poner un asterisco de seleccionado y ahora presionamos la tecla &lsquo;Enter&rsquo; para continuar.</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-init-2.jpg" alt="firebase init"></p>
+<figure>
+    <img src="img/firebase-init-2.jpg"
+         alt="firebase init"/> 
+</figure>
+
 
 <p>Si todo es correcto nos va a pedir que asociemos un proyecto y como ya hemos creado el proyecto anteriormente le vamos a asociar ese mismo presionando &lsquo;Enter&rsquo; en la opción:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-init-3.jpg" alt="firebase init"></p>
+<figure>
+    <img src="img/firebase-init-3.jpg"
+         alt="firebase init"/> 
+</figure>
+
 
 <p>Ahora nos pregunta que directorio queremos usar para desplegar nuestra página y nos sugiere (public) así lo dejaremos solo damos &lsquo;Enter&rsquo; seguido de esto nos pregunta si queremos reescribir nuestras rutas a index.html este paso no es necesario en nuestro caso ya que no tenemos un SPA o Single Page Application entonces seleccionamos que no escribiendo &lsquo;n&rsquo; y damos &lsquo;Enter&rsquo; nos debería de aparecer que todo fue correcto:</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-init-4.jpg" alt="firebase init"></p>
+<figure>
+    <img src="img/firebase-init-4.jpg"
+         alt="firebase init"/> 
+</figure>
+
 
 <p>Si revisamos nuestro directorio deberíamos de ver varios archivos de firebase y una nueva carpeta llamada public en ella hay dos archivos HTML uno es index.html y el otro es 404.html ahora podemos borrar dentro de public ese archivo index.html y poner el nuestro copiándolo ahí o podemos copiar nuestro index.html y pegarlo en public reescribiendo el que esta actualmente.</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/public-1.jpg" alt="public"></p>
+<figure>
+    <img src="img/public-1.jpg"
+         alt="public"/> 
+</figure>
+
 
 <h2 id="firebase-deploy">Firebase Deploy</h2>
 
@@ -224,15 +276,23 @@
 </div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-terminal" data-lang="terminal">    firebase deploy</code></pre></div></p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/firebase-deploy.jpg" alt="firebase deploy"></p>
+<figure>
+    <img src="img/firebase-deploy.jpg"
+         alt="firebase deploy"/> 
+</figure>
+
 
 <p>Listo 🚀 ahora solo dirígete a la ruta que te proporciona en automático Hosting URL de firebase y deberás ver tu página</p>
 
-<p><img class="img-fluid" src="/images/tutoriales/firebase-hosting/final.jpg" alt="firebase deploy"></p>
+<figure>
+    <img src="img/final.jpg"
+         alt="firebase deploy"/> 
+</figure>
+
 
 <p>Felicidades 🎉 ya tienes tu primer sitio web en internet, ya solo falta que le agregues contenido interesante para que todos puedan ver lo que haces.</p>
 
-    </div>
+    </section>
 
     <aside>
         <div class="aside">
