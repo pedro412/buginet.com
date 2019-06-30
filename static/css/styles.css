@@ -32,6 +32,7 @@ p {
 
 hr {
 	margin: 10px 0;
+	margin-bottom: 40px;
 	border: solid 1px #2a2e35;
 }
 
@@ -224,6 +225,7 @@ footer {
 }
 
 .lesson > figure > img {
+	margin: 15px auto;
 	max-width: 100%;
 	height: auto;
 }
@@ -262,6 +264,14 @@ h4 {
 .lesson > ul {
 	padding-left: 30px;
 	padding-bottom: 10px;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.subtitle {
+	font-size: 35px;
 }
 
 .aside {

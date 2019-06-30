@@ -2,14 +2,14 @@
 
 
 
-<h1 class="text-center">
+<h1 class="text-center title">
     {{ .Title }}
 </h1>
 <hr>
 
 <div class="lesson-grid">
 
-    <section class="lesson pt-50">
+    <section class="lesson">
         {{ .Content }}
     </section>
 
@@ -18,6 +18,9 @@
             {{ .TableOfContents }}
     </aside>
 </div>
+<br><br>
+<h2 class="text-center subtitle">Preguntas y respuestas <i class="fas fa-comments-alt"></i></h2>
+<hr>
 
 {{ template "_internal/disqus.html" . }}
 
