@@ -12,7 +12,7 @@ description: Aprende a alojar tus sitios estáticos con Firebase Hosting 🔥 to
         <i class="far fa-exclamation-circle"></i>
     </div>
     <div class="alert-text">
-        <p>Es necesario tener instalado NodeJs en nuestro computador y junto a ello Node Package Manager si no lo tienes checa esto</p>
+        <p>Es necesario tener instalado NodeJs en nuestro computador y junto a ello Node Package Manager si no lo tienes <strong>checa esto</strong></p>
     </div>
 </div>
 
