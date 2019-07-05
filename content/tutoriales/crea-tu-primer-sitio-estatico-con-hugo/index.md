@@ -3,6 +3,7 @@ title: 'Crea tu primer sitio estático con Hugo'
 date: 2019-06-23T20:48:08-05:00
 draft: false
 description: 'Aprende lo básico y crea tu primer sitio web con este veloz ⚡ framework'
+type: 'Tutoriales'
 ---
 
 En este tutorial aprenderás lo básico de HUGO, ¿Qué es y para que nos sirve?, además te iré guiando paso a paso para que crees tu primer sitio desde cero sin tener conocimientos avanzados en Go(lenguaje de programación).  

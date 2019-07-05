@@ -7,7 +7,7 @@
 
     <h2 class="text-center"><i class="fas fa-backpack"></i> Tutoriales</h2>
     <section class="section-grid">
-        {{ range .Pages }}
+        {{ range first 2 (where .Data.Pages "Type" "Tutoriales") }}
 
         <article class="list-article text-center">
             {{ $featured := print .RelPermalink "/img/featured.jpg" | default .Site.Data.defaults.featured_img }}
@@ -31,21 +31,17 @@
     <section class="pt-50">
         <h2 class="text-center"><i class="fas fa-book"></i> Artículos</h2>
         <div class="section-grid">
+            {{ range first 2 (where .Data.Pages "Type" "Articulos") }}
+
             <article class="list-article text-center">
-                <h3>HUGO generador de sitios estáticos</h3>
+                <h3>{{ .Title }}</h3>
                 <p>
-                    Aprende las ventajas de usar un generador de sitios estáticos
+                    {{ .Description }}
                 </p>
-                <a href="#" class="btn btn-warning btn-block">LEER</a>
+                <a href="{{.Permalink}}" class="btn btn-warning btn-block">LEER</a>
             </article>
-            <article class="list-article text-center">
-                <h3>¿Qué es firebase?</h3>
-                <p>
-                    Introducción básica a Firebase, la herramienta moderna más usada por los desarrolladores web y
-                    moviles
-                </p>
-                <a href="#" class="btn btn-warning btn-block">LEER</a>
-            </article>
+
+            {{ end }}
         </div>
     </section>
 

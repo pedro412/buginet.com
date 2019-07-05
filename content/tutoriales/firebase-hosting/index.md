@@ -3,6 +3,7 @@ title: "Firebase Hosting"
 date: 2019-06-24T22:35:07-05:00
 draft: false
 description: Aprende a alojar tus sitios estáticos con Firebase Hosting 🔥 totalmente gratis
+type: 'Tutoriales'
 ---
 
 ## Requisitos 

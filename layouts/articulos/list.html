@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<h1 class="text-center">Articulos</h1>
+<hr>
+
+<section class="section-grid">
+    {{ range .Pages }}
+
+    <article class="list-article text-center">
+
+        <h3>{{ .Title }}</h3>
+        <p>
+            {{ .Description }}
+        </p>
+        <a href="{{.Permalink}}" class="btn btn-warning btn-block">LEER</a>
+    </article>
+
+    {{ end }}
+</section>
+
+{{ end }}
