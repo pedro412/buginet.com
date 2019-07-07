@@ -246,7 +246,7 @@ h4 {
 }
 
 .lesson p {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .lesson > p > a {
@@ -352,5 +352,21 @@ h4 {
 	.nav-menu {
 		list-style: none;
 		padding-left: 10px;
+	}
+
+	.section-grid {
+		display: inline;
+	}
+
+	.list-article {
+		margin-bottom: 20px;
+	}
+
+	.lesson-grid {
+		display: inline;
+	}
+
+	.highlight {
+		overflow-x: auto;
 	}
 }
