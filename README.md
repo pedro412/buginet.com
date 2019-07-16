@@ -1,7 +1,6 @@
 # buginet.com
 
-El propósito de buginet.com es tener un pequeño rincón en internet en donde pueda ir documentando todo lo que he ido aprendiendo a lo largo de mi carrera como desarrollador, estos aprendizajes los iré plasmando en forma de tutoriales para que le sirvan a la personas que están empezando.
-También estaré publicando artículos acerca de otros temas como el trabajo.
+El propósito de buginet.com es tener un pequeño rincón en internet en donde pueda ir documentando todo lo que he ido aprendiendo a lo largo de mi carrera como desarrollador, la idea es crear tutoriales y artículos que les sirvan a la personas que están empezando.
 
 ## Artículos
 
